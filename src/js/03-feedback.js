@@ -18,7 +18,7 @@ const refs = {
 // const formFeedback = 
 
 refs.form.addEventListener('submit', onFormSubmit);
-refs.textarea.addEventListener('input', throttle (onTextareaInput, 500));
+refs.form.addEventListener('input', throttle (onTextareaInput, 500));
 
 refs.form.addEventListener('input', e => {
     formData[e.target.name]= e.target.value;

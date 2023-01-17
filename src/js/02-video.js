@@ -13,7 +13,6 @@ const onPlay = function(data) {
 
 
 
-player.on('play', onPlay);
 
 
 
